@@ -1,0 +1,65 @@
+﻿capital = 151
+set_research_slots = 4
+set_stability = 80
+set_war_support = 5
+set_convoys = 100
+#Starting tech
+
+set_technology = {
+
+}
+
+enable_equipments = {
+    infantry_equipment_1
+}
+
+#For start date 1939.1.1
+1939.1.1 = {
+
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
+	set_convoys = 100
+}
+
+#Politics for 1936.1.1
+
+set_politics = {
+	add_political_power = 500
+	ruling_party = democratic
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 95
+	fascism = 2
+	communism = 2
+	neutrality = 1
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 98
+		fascism = 1
+		communism = 1
+		neutrality = 0
+	}
+}
+
+#Create country leader - Rudolf Minger
+create_country_leader = {
+	name = "Rudolf Minger"
+	#Custom image for Rudolf Minger
+	picture = "rudolf_minger-58549.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { }
+}
