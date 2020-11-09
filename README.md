@@ -12,3 +12,9 @@ Features:
 - Flags
 - Leaders
 - Events
+
+---
+
+Bugs: 
+
+none yet
