@@ -19,4 +19,15 @@ Features:
 
 Bugs: 
 
-none yet (lol)
+- Desicion "Kriegsmobilmachung" is not working as intended
+- Flag orientation          
+
+---
+
+Todo:
+
+- Focus tree complete
+- Tech-tree (if possible)
+- Unit modding
+- Generals
+- More Desicons / Events
