@@ -1,0 +1,16 @@
+mobilmachung = {
+
+	kriegsmobilmachung = {
+
+		visible = {
+			has_war = yes
+			manpower < 50000
+		}
+   
+
+		cost = 150
+		complete_effect = {
+			add_manpower = 500200
+		}
+	}
+}

@@ -1,0 +1,14 @@
+mobilmachung = {
+
+	generalmobilmachung = {
+		
+
+	fire_only_once = yes # Will not re-enable after being removed
+
+		cost = 100
+		complete_effect = {
+			add_manpower = 213000
+		}
+		
+	}
+}

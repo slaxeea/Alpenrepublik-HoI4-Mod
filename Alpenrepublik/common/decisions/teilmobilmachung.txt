@@ -1,0 +1,15 @@
+mobilmachung = {
+
+	teilmobilmachung = {
+		
+		days_re_enable = 180 # Will show up in the interface and can be selected again after 5 days
+		cost = 50
+		complete_effect = {
+			add_manpower = 20400
+		}
+		
+		remove_effect = {
+			add_manpower = -10500
+	   }
+	}
+}
