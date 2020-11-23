@@ -1,0 +1,40 @@
+add_namespace = alpenrepublik
+
+##Event: Industrialization?
+country_event = {
+	id = alpenrepublik.1
+	title = alpenrepublik.1.title
+	desc = alpenrepublik.1.desc
+	picture = GFX_report_event_molotov_ribentrop_handshake
+	
+trigger = {
+				tag = ALP
+				date > 1936.1.1 
+			}
+			mean_time_to_happen = { days = 10 }
+			fire_only_once = yes
+
+	option = {
+		name = alpenrepublik.1.a
+		ai_chance = { factor = 1}
+		153 = {
+		add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                        instant_build = yes
+                    }
+		}
+	}
+	option = {
+		name = alpenrepublik.1.b
+		ai_chance = { factor = 1}
+		153 = {
+		add_building_construction = {
+                        type = arms_factory
+                        level = 1
+                        instant_build = yes
+                    }
+		}
+		
+	}
+}
