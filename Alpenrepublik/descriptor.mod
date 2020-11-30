@@ -6,4 +6,4 @@ tags={
 	"Map"
 }
 name="Alpenrepublik2.0"
-supported_version="1.10.2"
+supported_version="1.10.3"
