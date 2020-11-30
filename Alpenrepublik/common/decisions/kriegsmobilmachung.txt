@@ -2,11 +2,11 @@ mobilmachung = {
 
 	kriegsmobilmachung = {
 
+		allowed = { tag = ALP }   
 		visible = {
 			has_war = yes
 			manpower < 50000
 		}
-   
 
 		cost = 150
 		complete_effect = {

@@ -2,8 +2,7 @@ mobilmachung = {
 
 	generalmobilmachung = {
 		
-
-	fire_only_once = yes # Will not re-enable after being removed
+	fire_only_once = yes 
 
 		cost = 100
 		complete_effect = {

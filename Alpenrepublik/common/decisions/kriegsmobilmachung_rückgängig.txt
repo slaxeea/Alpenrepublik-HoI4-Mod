@@ -1,12 +1,13 @@
 mobilmachung = {
 
-	generalmobilmachung = {
+	kriegsmobilmachung_rückgängig = {
 		
 
-	fire_only_once = yes # Will not re-enable after being removed
-
+	fire_only_once = yes 
+	allowed = { tag = ALP }   
 	
 	visible = {
+		has_completed = kriegsmobilmachung
 		has_war = no
 		manpower > 1000
 	}
