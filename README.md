@@ -20,7 +20,10 @@ Features:
 Bugs: 
 
 - Desicion "Kriegsmobilmachung" is not working as intended
-- Flag orientation          
+- Flag orientation
+- Focus Tree Ideologien keine Effekte
+- Kriegsmobilmachung kann während dem Krieg mehrmals ausgeführt werden.
+- Kriegsmbilmachung rückgängig kein Bonus oder Belohnung.
 
 ---
 
