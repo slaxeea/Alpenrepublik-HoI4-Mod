@@ -1,6 +1,6 @@
 capital = 151
 oob = "ALP_1936"
-set_research_slots = 5
+set_research_slots = 3
 set_stability = 90
 set_war_support = 5
 set_convoys = 100
