@@ -182,6 +182,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2
 		}
+		completion_reward = {
+			add_state_core = 20
+			set_state_owner = 20
+			set_state_controller = 20
+			add_state_core = 32
+			set_state_owner = 32
+			set_state_controller = 32
+			add_state_core = 735
+			set_state_owner = 735
+			set_state_controller = 735
+		}
 	}
 
  
@@ -243,7 +254,10 @@ focus_tree = {
 			focus = ALP_bring_back_the_monarchy
 		}
 		completion_reward = {
-			add_timed_idea = { idea = communism_drift  days = 20 }
+			add_popularity = {
+				ideology = communism
+				popularity = 0.10
+			}
 		}
 	}
 	#Focus for nationalism
@@ -255,7 +269,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			
 		}
 		prerequisite = {
 			focus = ALP_which_political_direction
@@ -266,8 +280,12 @@ focus_tree = {
 			focus = ALP_bring_back_the_monarchy
 		}
 		completion_reward = {
-			add_timed_idea = { idea = fascism_drift  days = 20 }
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
 		}
+		
 	}
 
 	#Focus for Democracy!
@@ -290,7 +308,7 @@ focus_tree = {
 			focus = ALP_bring_back_the_monarchy
 		}
 		completion_reward = {
-			idea = democracy_drift
+			add_political_power = 100
 		}
 	}
 	#Focus for Bring back the monarchy!
@@ -313,7 +331,10 @@ focus_tree = {
 			focus = ALP_communism
 		}
 		completion_reward = {
-			add_timed_idea = { idea = neutrality_drift  days = 20 }
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
 		}
 	}
 
