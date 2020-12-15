@@ -1,6 +1,6 @@
 capital = 151
 oob = "ALP_1936"
-set_research_slots = 3
+set_research_slots = 5
 set_stability = 90
 set_war_support = 5
 set_convoys = 100
@@ -77,4 +77,26 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = { }
+}
+
+# Create Generals
+create_corps_commander = {
+	name = "General Guisan"
+	portrait_path = "gfx/generals/guisan.dds"
+	skill = 4
+}
+create_corps_commander = {
+	name = "Gustave Combe"
+	portrait_path = "gfx/generals/gustav.dds"
+	skill = 3
+}
+create_corps_commander = {
+	name = "Ulrich Wille"
+	portrait_path = "gfx/generals/ulrich.dds"
+	skill = 3
+}
+create_corps_commander = {
+	name = "Johannes von Muralt"
+	portrait_path = "gfx/generals/johannes.dds"
+	skill = 2
 }
